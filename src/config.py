@@ -16,7 +16,7 @@ def _model_name():
     if explicit: return explicit
     provider = os.getenv("LLM_PROVIDER", "gemini").strip().lower()
     if provider == "groq": return os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
-    return os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    return os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 @dataclass
 class Settings:
