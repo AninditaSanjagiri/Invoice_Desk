@@ -10,3 +10,7 @@ experiments/llm_outputs/
 experiments/cached_ocr/
 *.db
 *.sqlite
+credentials/
+*.json
+credentials/
+*service-account*.json
